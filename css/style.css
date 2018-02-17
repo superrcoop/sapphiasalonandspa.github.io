@@ -53,7 +53,6 @@ a {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   color: #57cecd;
-  border-bottom: 1px solid #ccc;
 }
 a:hover, a:focus, a:active {
   color: #31a8a7;
@@ -687,7 +686,7 @@ textarea {
 }
 
 #hero {
-  background-color: #57cecd;
+  background-image: url("../img/IMG_3003.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -699,16 +698,7 @@ textarea {
   z-index: 20;
   color: #ffffff;
 }
-#hero .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  background: #57cecd;
-  opacity: .97;
-}
+
 @media screen and (max-width: 768px) {
   #hero {
     background-position: center center;
@@ -915,10 +905,12 @@ body.mobile-menu-visible #mobile-menu {
 .product-2.reverse .img {
   position: absolute;
   right: 0;
+  
 }
 @media screen and (max-width: 768px) {
   .product-2.reverse .img {
     position: relative;
+
   }
 }
 
@@ -1561,29 +1553,22 @@ Components
 /* Social Icons */
 .social-icons {
   padding: 0;
+  font-size: 40px;
 }
 .social-icons li {
   list-style: none;
   display: inline;
   display: inline-block;
+  padding: 10px;
 }
 .social-icons li a {
-  height: 40px;
-  width: 40px;
-  border: 1px solid #ebebeb;
-  display: table;
+
   text-align: center;
   color: #2e2e2e;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
 }
 .social-icons li a:hover {
-  background: #f86942;
-  border: 1px solid #f86942 !important;
-  color: #ffffff !important;
+
+  color: #57cecd; !important;
 }
 .social-icons li i {
   display: table-cell;
