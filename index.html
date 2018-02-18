@@ -46,6 +46,8 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Theme Style -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Salvattore -->
+	<link rel="stylesheet" href="css/salvattore.css">
 
 	</head>
 	<body>
@@ -56,26 +58,41 @@
 			<div class="container">
 				<!-- <div id="menu-logo"> -->
 					<!-- START #logo -->
-					<h1 id="logo" class="pull-left"><a href="#top"><img src="img/saphireLOGO.png" alt="LOGO"></a></h1>
+					<h1 id="logo" class="pull-left"><a href="#hero"><img src="img/sapphireLOGO.png" alt="LOGO"></a></h1>
 					
 					<!-- START #menu-wrap -->
 					<nav id="menu-wrap" role="navigation">
-						
-						
 						<ul class="sf-menu" id="primary-menu">
 							<li class="active">
-								<a href="#">Home</a>
+								<a href="#hero">Home</a>
 							</li>
 							<li>
-								<a href="#" class="sub-ddown">Treatments</a>
-								 <ul class="sub-menu">
-								 	<li><a href="#">Facials</a></li>
-								 	<li><a href="#">Massage</a></li>
-									<li><a href="#">Steam</a></li>
+								<a href="#" class="sub-ddown">Services <i class="fa fa-angle-down pull-right"></i></a>
+								 <ul class="sub-menu" >
+								 	<li><a href="#facials" class="smoothscroll">Facials</a></li>
+								 	<li><a href="#message" class="smoothscroll">Massage</a></li>
+									<li><a href="#wax" class="smoothscroll">Wax</a></li>
+									<li><a href="#microdermabrasion" class="smoothscroll">Microdermabrasion</a></li>
+									<li><a href="#steam" class="smoothscroll">Steam</a></li>
+									<li><a href="#eyes" class="smoothscroll">Eyes &amp; Brows</a></li>
+									<li><a href="#makeup" class="smoothscroll">Makeup</a></li>
+									<li><a href="#tatoo" class="smoothscroll">Tatoo &amp; Piercing</a></li>
+									<li><a href="#" class="sub-ddown">Nails <i class="fa fa-angle-down pull-right"></i></a>
+										<ul class="sub-menu">
+											<li><a href="#nails-m" class="smoothscroll">Men</a></li>
+											<li><a href="#nails-f" class="smoothscroll">Women</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="sub-ddown">Hair <i class="fa fa-angle-down pull-right"></i></a>
+										<ul class="sub-menu">
+											<li><a href="#barber" class="smoothscroll">Barber</a></li>
+											<li><a href="#salon" class="smoothscroll" >Hair Salon</a></li>
+										</ul>
+									</li>
+									
 								</ul>
 							</li>
-							<li><a href="#">Barber</a></li> 
-							<li><a href="#">Contact</a></li>
+							<li><a href="#footer" class="smoothscroll">Contact</a></li>
 						</ul>
 					</nav>
 				<!-- </div> -->
@@ -91,7 +108,7 @@
 			<div class="container">
 				<div class="col-md-12">
 					<div class="hero-wrap">
-						<div class="hero-intro">
+						<div class="jumbotron hero-intro">
 							<h1 class="to-animate hero-animate-1">S A P P H I A</h1>
 							<h2 class="to-animate hero-animate-2">salon and spa</h2>
 							<p class="to-animate hero-animate-3"><a href="#" class="btn btn-outline btn-md">Schedule an appointment today!</a></p>
@@ -106,8 +123,9 @@
 			<div class="container-fluid">
 				
 				<div class="row text-center" id="features">
-					<div class="col-md-12 heading animate-box"><h2>Awesome Features</h2></div>
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. </p>
+					<div class="col-md-12 heading animate-box"><h2>Open Hours</h2></div>
+					<p class="col-md-12 center">Mon - Friday: morning to night<br>Saturday: sunrise-night<br>Sundays: Noon - sunset<br>Holidays: Maybe<br></p>
+
 				</div>
 				<!-- END row -->
 				
@@ -119,8 +137,8 @@
 					
 				</div>
 				<div class="half">
-					<h3>Footsals</h3>
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+					<p>
+					While you cant buy HAPPINESS,you can get a MANI and a PEDI at Sapphia salon and thats kinda the same thing &#128588; &#128513;</p>
 					<p><a href="#" class="btn btn-outline btn-md">See Prices</a></p>
 				</div>
 			</div>
@@ -130,8 +148,8 @@
 					
 				</div>
 				<div class="half">
-					<h3>Massages</h3>
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. </p>
+					
+					<p>Taking Time out each Day to relax and renew is essential to living well</p>
 					<p><a href="#" class="btn btn-outline btn-md">See Prices</a></p>
 				</div>
 				
@@ -142,8 +160,8 @@
 					
 				</div>
 				<div class="half">
-					<h3>Barber</h3>
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.  </p>
+					
+					<p>Forward fi look fresh and clean</p>
 					<p><a href="#" class="btn btn-outline btn-md">See Prices</a></p>
 				</div>
 			</div>
@@ -154,15 +172,15 @@
 						<div class="col-md-12 heading text-center"><h2>Services</h2></div>
 						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. </p>
 					</div>
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+					<div class="row" id="pricelist">
+						<div  class="col-lg-3 col-md-6 col-sm-6 animate-box" >
+							<div class="card" id="facials">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
 								            <thead>
 								                <tr>
-								                    <th>Facials</th>
+								                    <th >Facials</th>
 								                    <th></th>
 								                    
 								                </tr>
@@ -215,7 +233,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="massages">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -306,7 +324,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="wax" >
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -381,7 +399,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="microdermabrasion">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -417,7 +435,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="eyes">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -482,7 +500,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="makeup" >
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -513,7 +531,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id=tatoo>
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -540,7 +558,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="nails-f" >
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -635,7 +653,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="nails-m">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -684,7 +702,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card" >
+							<div class="card" id="barber" >
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -719,7 +737,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6 animate-box">
-							<div class="card">
+							<div class="card" id="salon">
 								
 									<div class="wrapper">
 								        <table id="acrylic">
@@ -876,7 +894,7 @@
 					
 				</div>
 				<!-- END row -->
-				<div class="spacer spacer-md"></div>
+				<div class="spacer spacer-sm"></div>
 			</div>
 		</footer>
 			
@@ -906,6 +924,8 @@
 		<script src="js/jquery.waypoints.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+		<!-- Salvattore -->
+			<script src="js/salvattore.min.js"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 	</body>

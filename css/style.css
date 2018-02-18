@@ -331,7 +331,6 @@ textarea {
   margin-left: -7px;
   font-size: 14px;
   width: 100%;
-  content: "\e64b";
   color: #2b9493;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -358,7 +357,6 @@ textarea {
   margin-right: 10px;
   top: 13px;
   font-size: 12px;
-  content: "\e649";
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -377,7 +375,6 @@ textarea {
   right: 20px;
   width: 0;
   height: 0;
-  content: '';
 }
 
 #primary-menu .sub-menu:after {
@@ -390,7 +387,7 @@ textarea {
   border-bottom: 8px solid #57cecd;
   border-bottom: 8px solid rgba(0, 0, 0, 0.8);
   border-left: 8px solid transparent;
-  content: '';
+  
 }
 
 #primary-menu .sub-menu .sub-menu:before {
@@ -579,7 +576,6 @@ textarea {
   position: absolute;
   right: 0;
   margin-top: 2px;
-  content: "\e64b";
 }
 #mobile-menu #mobile-menu-ul .sub-menu {
   display: none;
@@ -695,8 +691,12 @@ textarea {
   height: 300px;
   display: table;
   position: relative;
-  z-index: 20;
+  z-index: 10;
   color: #ffffff;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 768px) {
@@ -1096,6 +1096,14 @@ table#acrylic {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.row #pricelist{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .cards {
