@@ -29,6 +29,7 @@
 					id : 'logo-mobile',
 					class : ''
 				});
+
 				
 				$('<div id="logo-mobile-wrap">').append(cloneLogo).insertBefore('#header-section');
 				// $('#logo-mobile-wrap').append('<a href="#" id="mobile-menu-btn"><i class="ti-menu"></i></a>')

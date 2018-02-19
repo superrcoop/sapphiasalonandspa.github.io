@@ -11,7 +11,7 @@ html.overflow #header-section, html.overflow #main, html.overflow #hero, html.ov
 }
 
 body {
-  font-family: "Roboto", arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.9;
   font-weight: 300;
@@ -114,13 +114,7 @@ ul, ol, p {
   margin: 0 0 20px 0;
 }
 
-.serif {
-  font-family: "Crimson Text", serif;
-}
 
-.sans-serif {
-  font-family: "Roboto", arial, sans-serif;
-}
 
 input[type="text"],
 input[type="password"],
@@ -224,9 +218,9 @@ textarea {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #2d9c9b;
+  color: #ffffff;
   padding: .75em 1em;
-  font-weight: normal;
+  font-weight: bold;
   border-left: none;
   border-top: none;
   border-top: none;
@@ -234,6 +228,7 @@ textarea {
   zoom: 1;
   font-size: 18px;
   border-bottom: none !important;
+
 }
 
 .sf-menu li,
@@ -256,7 +251,7 @@ textarea {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #ffffff;
+  color:#fcebb6;
 }
 
 .sf-menu ul li:hover,
@@ -309,7 +304,7 @@ textarea {
 }
 #primary-menu > li > .sf-with-ul::after {
   border: none !important;
-  font-family: 'themify';
+  font-family: 'Raleway', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -336,7 +331,7 @@ textarea {
 }
 #primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
-  font-family: 'themify';
+  font-family: 'Raleway', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -412,7 +407,7 @@ textarea {
   background: none;
 }
 #primary-menu .sub-menu a:hover {
-  color: #57cecd !important;
+  color: #fcebb6 !important;
 }
 
 .nav-toggle {
@@ -434,7 +429,7 @@ textarea {
   width: 25px;
   height: 3px;
   color: #252525;
-  font: bold 14px/.4 Helvetica;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   text-indent: -55px;
   background: #252525;
@@ -504,7 +499,11 @@ textarea {
   display: block;
   margin: 0 auto;
   display: none;
-  background: #f86942;
+  background: #fcebb6;
+  background-color: #fcebb6;
+  border-color: #e2bf88;
+  border-style: inset;
+  border-width: 3px;
   height: 44px;
   width: 44px;
   border-bottom: none !important;
@@ -532,6 +531,8 @@ textarea {
   background: #181920;
   padding: 0.75em 1.25em;
 }
+
+
 #mobile-menu #mobile-menu-ul {
   padding: 0;
   margin: 0;
@@ -557,7 +558,7 @@ textarea {
   position: relative;
 }
 #mobile-menu #mobile-menu-ul .sub-ddown::after {
-  font-family: 'themify';
+  font-family: 'Raleway', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -686,11 +687,17 @@ textarea {
   position: relative;
   z-index: 10;
   color: #ffffff;
+  font-size: 12px;
 }
 
 .jumbotron {
+  font-family: 'Bellefair', serif;
+  background: rgba(0,0,0, 0.5);
+  border-color: #fcebb6;
+  border-style: inset;
+  border-width: 5px;
 
-  background: rgba(255, 255, 255, 0.5);
+
 }
 
 @media screen and (max-width: 768px) {
@@ -710,7 +717,10 @@ textarea {
   text-decoration: none;
   width: 50px;
   height: 50px;
-  background: #f86942;
+  background-color: #fcebb6;
+  border-color: #e2bf88;
+  border-style: inset;
+  border-width: 3px;
   border-bottom: none !important;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -756,10 +766,10 @@ textarea {
   border-bottom: 1px solid white;
 }
 #hero .hero-wrap .hero-intro > h1 {
-  font-size: 36px;
+  font-size: 50px;
   line-height: 47px;
   color: #ffffff;
-  font-weight: 100;
+  font-weight: 500;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 @media screen and (max-width: 768px) {
@@ -770,7 +780,7 @@ textarea {
 #hero .hero-wrap .hero-intro > h2 {
   letter-spacing: 4px;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   padding-bottom: 20px;
   position: relative;
@@ -787,8 +797,8 @@ textarea {
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 #hero .hero-wrap .btn:hover, #hero .hero-wrap .btn:active, #hero .hero-wrap .btn:focus {
-  background: #57cecd;
-  border-color: #57cecd;
+  background: #fcebb6;
+  border-color: #fcebb6;
 }
 
 body.inner-page #hero .hero-wrap {
@@ -848,7 +858,7 @@ body.mobile-menu-visible #mobile-menu {
 }
 
 table#acrylic {
-            background: #fff;
+            background: rgba(255,255,255,0.8);
             width: 100%;
             
         }
@@ -857,18 +867,16 @@ table#acrylic {
         }
         
         #acrylic thead th {
-            font-size: 16px;
-            font-weight: 400;
+            font-size: 20px;
+            font-weight: 600;
             color: #fff;
-            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
-            text-align: left;
+            text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.5);
+            letter-spacing: 5px;
             padding: 20px;
-            background-size: 100%;
-            background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #646f7f), color-stop(100%, #4a5564));
-            background-image: -moz-linear-gradient(#646f7f, #4a5564);
-            background-image: -webkit-linear-gradient(#646f7f, #4a5564);
-            background-image: linear-gradient(#646f7f, #4a5564);
+            background:#0f52ba ;
+            opacity: 0.8;  
             border-top: 1px solid #858d99;
+            text-align: center;
         }
         
         #acrylic thead th:first-child {
@@ -884,15 +892,16 @@ table#acrylic {
         }
         
         #acrylic tbody tr td {
-            font-weight: 400;
+            font-weight: 600;
             color: #5f6062;
-            font-size: 13px;
+            font-size: 16px;
             padding: 20px 20px 20px 20px;
             border-bottom: 1px solid #e0e0e0;
         }
         
         #acrylic tbody tr:nth-child(2n) {
-            background: #f0f3f5;
+            background: #fcebb6; 
+            opacity: 0.8;      
         }
         
         #acrylic tbody tr:last-child td {
@@ -1029,8 +1038,7 @@ table#acrylic {
   clear: both;
   position: relative;
   padding: 7em 0 1em 0;
-  background: #57cecd;
-  background: #f3f8f9;
+  
   float: left;
   width: 100%;
 }
@@ -1046,7 +1054,10 @@ table#acrylic {
   text-decoration: none;
   width: 60px;
   height: 60px;
-  background: #f86942;
+  background-color: #fcebb6;
+  border-color: #e2bf88;
+  border-style: inset;
+  border-width: 3px;
   border-bottom: none !important;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -1100,9 +1111,20 @@ table#acrylic {
     padding: 0 4px;
 }
 
-.cards {
-  background: whitesmoke;
-  padding: 7em 0;
+
+.cards table {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.cards #services {
+  padding: 5em 0;
+}
+
+.cards #pricelist{
+  background-image:url('../img/abstract.jpg');
+  background-size:contain;
+  padding: 5em 0;
+  
 }
 @media screen and (max-width: 768px) {
   .cards {
@@ -1111,9 +1133,9 @@ table#acrylic {
 }
 .cards .card {
   display: block;
-  background: #ffffff;
   position: relative;
   overflow: hidden;
+  background-color:rgba(0, 0, 0, 0);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -1135,20 +1157,7 @@ table#acrylic {
 .cards .card img {
   z-index: -1;
 }
-.cards .card .card-body {
-  padding: 30px;
-}
-.cards .card .card-body h3 {
-  font-size: 20px;
-  color: #8b969c;
-  margin-bottom: 10px;
-}
-.cards .card .card-body p {
-  color: #8b969c;
-}
-.cards .card .card-body p:last-child {
-  margin-bottom: 0;
-}
+
 .cards .card:hover {
   text-decoration: none;
   border-bottom: none;
@@ -1400,11 +1409,9 @@ Components
 
 /* Features*/
 #features {
-  padding: 7em 0;
+  padding: 5em 0;
 }
-#features .feature {
-  margin-bottom: 30px;
-}
+
 #features .feature .heading {
   font-size: 18px;
   margin-bottom: 20px !important;
@@ -1562,7 +1569,7 @@ Components
   color: #57cecd;
 }
 .accordion .panel-heading .accordion-toggle:after {
-  font-family: 'themify';
+  font-family: 'Raleway', sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
