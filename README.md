@@ -1,14 +1,15 @@
-<img src="img/saphhireLOGO.png" />     
+
+# [S A L O N & S P A & B A R B E R](https://sapphiasalonanadspa.com)
+
+<img src="img/saphphia.png" />     
 
 
-# S A L O N & S P A & B A R B E R
 
 ### Follow us on:
 
 * [Instagram](https://www.instagram.com/sapphiasalonanadspa)
+* [Facebook](https://www.facebook.com/sapphiasalonandspa/)
 
 ### Contact us: 
-* Phone: +1-876-669-4208 
-* Location: New Kingston,Jamaica.
-
-
+* Phone: +1-876-648-5925 or +1-876-899-2657
+* Location: 1 Brompton Road,New Kingston,Jamaica.
