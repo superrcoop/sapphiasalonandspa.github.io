@@ -1637,6 +1637,20 @@ Components
   background: #e02745;
 }
 
+/* Payment Icons */
+.payment {
+  padding: 0px;
+  font-size: 30px;
+}
+
+.payment li{
+   list-style: none;
+  display: inline;
+  display: inline-block;
+  padding: 10px;
+}
+
+
 /* Social Icons */
 .social-icons {
   padding: 0;
