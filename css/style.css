@@ -1313,6 +1313,16 @@ Components
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 10px;
+  font-size: 8px !important;
+  white-space: normal;
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 12px !important;
+  }
 }
 .btn:hover, .btn:focus, .btn:active {
   box-shadow: none;
@@ -1712,6 +1722,7 @@ Pricing table
 
 .pricing-head {
   text-align: center;
+
 }
 
 .pricing-head h3,
@@ -1726,6 +1737,7 @@ Pricing table
   margin-top: 5px;
   font-size: 14px;
   font-style: italic;
+
 }
 
 .pricing-head h3 {
@@ -1793,6 +1805,7 @@ Pricing table
 
 .no-space-pricing .pricing:hover {
   transition: box-shadow 0.2s ease-in-out;
+
 }
 
 .no-space-pricing .price-active .pricing-head h4,
