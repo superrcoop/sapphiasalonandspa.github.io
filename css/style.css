@@ -1313,6 +1313,16 @@ Components
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 10px;
+  font-size: 8px !important;
+  white-space: normal;
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 12px !important;
+  }
 }
 .btn:hover, .btn:focus, .btn:active {
   box-shadow: none;
