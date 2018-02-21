@@ -45,16 +45,14 @@ a {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  color: #57cecd;
+  color: #0f52ba;
 }
-a:hover, a:focus, a:active {
-  color: #31a8a7;
-}
+
 a:hover, a:focus, a:active {
   outline: none;
-  color: #2e2e2e;
+  color: #fcebb6;
   text-decoration: none;
-  border-bottom: 1px solid #57cecd;
+  border-bottom: 1px solid #fcebb6;
 }
 
 input {
@@ -1102,6 +1100,7 @@ table#acrylic {
   padding: 0;
   margin: 0;
   list-style: none;
+
 }
 
 .row #pricelist{
@@ -1667,11 +1666,11 @@ Components
 .social-icons li a {
 
   text-align: center;
-  color: #2e2e2e;
+  color: #0f52ba;
 }
 .social-icons li a:hover {
 
-  color: #57cecd; !important;
+  color: #fcebb6; !important;
 }
 .social-icons li i {
   display: table-cell;
