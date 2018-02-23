@@ -24,20 +24,7 @@ body {
   }
 }
 
-::-webkit-selection {
-  color: #ffffff;
-  background: #57cecd;
-}
 
-::-moz-selection {
-  color: #ffffff;
-  background: #57cecd;
-}
-
-::selection {
-  color: #ffffff;
-  background: #57cecd;
-}
 
 a {
   -webkit-transition: all 0.2s ease;
