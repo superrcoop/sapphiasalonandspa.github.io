@@ -1,7 +1,7 @@
 
 # [S A L O N & S P A & B A R B E R](https://sapphiasalonanadspa.com)
 
-<img src="img/sapphia.png" />     
+<img src="img/Sapphia.png" />     
 
 
 
