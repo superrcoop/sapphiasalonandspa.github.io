@@ -897,7 +897,7 @@ table#acrylic {
             border-bottom: 1px solid #e0e0e0;
         }
         
-        #acrylic tbody tr:nth-child(2n) {
+        #acrylic tbody tr {
             background: #fcebb6; 
             opacity: 0.8;      
         }
@@ -1121,8 +1121,6 @@ table#acrylic {
 }
 
 .cards #pricelist{
-  background-image:url('../img/abstract.jpg');
-  background-size:contain;
   padding: 5em 0;
   
 }
@@ -1697,18 +1695,16 @@ Pricing table
 }
 
 .pricing-active {
-  border: 3px solid #36d7ac;
+  border: 3px solid #eee;
   margin-top: -10px;
-  box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
+  box-shadow: 7px 7px rgba( 15, 82, 186, 0.2);
 }
 
 .pricing:hover {
-  border: 3px solid #36d7ac;
+  border: 3px solid #0f52ba;
 }
 
-.pricing:hover h4 {
-  color: #36d7ac;
-}
+
 
 .pricing-head {
   text-align: center;
@@ -1733,22 +1729,18 @@ Pricing table
   color: #fafafa;
   padding: 12px 0;
   font-size: 27px;
-  background: #36d7ac;
-  border-bottom: solid 1px #41b91c;
+  background: url("../img/abstract.jpg");
 }
 
 .pricing-head h4 {
-  color: #bac39f;
+  color: #fff;
   padding: 5px 0;
   font-size: 54px;
   font-weight: 300;
-  background: #fbfef2;
+  background: rgba( 15, 82, 186, 0.4);
   border-bottom: solid 1px #f5f9e7;
 }
 
-.pricing-head-active h4 {
-  color: #36d7ac;
-}
 
 .pricing-head h4 i {
   top: -8px;
@@ -1805,7 +1797,10 @@ Pricing table
 
 .yellow-crusta.btn {
   color: #FFFFFF;
-  background-color: #f3c200;
+  background-color: #fcebb6;
+   border-color: #e2bf88;
+  border-style: inset;
+  border-width: 3px;
 }
 .yellow-crusta.btn:hover,
 .yellow-crusta.btn:focus,
