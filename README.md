@@ -1,11 +1,5 @@
 
-<<<<<<< HEAD
 <img src="img/saphphia.png" />     
-=======
-# [S A L O N & S P A & B A R B E R](https://sapphiasalonanadspa.com)
-
-<img src="img/Sapphia.png" />     
->>>>>>> master
 
 
 
