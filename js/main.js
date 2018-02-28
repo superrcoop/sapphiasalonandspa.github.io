@@ -201,38 +201,6 @@
     });
 	};
 
-
-	// Owl Carousel
-	var owlCrouselFeatureSlide = function() {
-		var owl = $('.owl-carousel');
-		owl.owlCarousel({
-			items: 1,
-		    loop: true,
-		    margin: 0,
-		    responsiveClass: true,
-		    nav: true,
-		    dots: true,
-		    smartSpeed: 500,
-		    navText: [
-		      "<i class='ti-arrow-left owl-direction'></i>",
-		      "<i class='ti-arrow-right owl-direction'></i>"
-	     	]
-		});
-	};
-
-	var testimonialCarousel = function(){
-		var owl = $('.owl-carousel-fullwidth');
-		owl.owlCarousel({
-			items: 1,
-		    loop: true,
-		    margin: 0,
-		    responsiveClass: true,
-		    nav: false,
-		    dots: true,
-		    smartSpeed: 500,
-		    autoHeight: true
-		});
-	};
 	
 	// MagnificPopup
 	var magnifPopup = function() {
@@ -405,8 +373,6 @@
 		mobileBtnClick();
 		mobileClickSubMenus();
 		mobileMenuOutsideClick();
-		owlCrouselFeatureSlide();
-		testimonialCarousel();
 		windowResize();
 		smoothScroll();
 		windowScroll();
