@@ -145,6 +145,7 @@ textarea {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   z-index: 103;
+  
 }
 
 #menu-logo {
@@ -794,6 +795,15 @@ textarea {
   color: #ffffff;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
+
+@media screen and (max-width: 768px) {
+  #hero .hero-wrap .btn {
+    font-size: 8px;
+  }
+}
+
+
+
 #hero .hero-wrap .btn:hover, #hero .hero-wrap .btn:active, #hero .hero-wrap .btn:focus {
   background: #fcebb6;
   border-color: #fcebb6;
