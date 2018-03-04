@@ -592,7 +592,7 @@ textarea {
   top: 0;
   width: 100%;
   z-index: 10001;
-  background: #2b303b;
+  background: #FFF;
   color: #ccc;
   -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
