@@ -873,7 +873,7 @@ table#acrylic {
         
         #acrylic thead {
         }
-        
+         
         #acrylic thead th {
             font-size: 20px;
             font-weight: 600;
@@ -902,7 +902,7 @@ table#acrylic {
         #acrylic tbody tr td {
             font-weight: 600;
             color: #5f6062;
-            font-size: 16px;
+            font-size: 14px;
             padding: 20px 20px 20px 20px;
             border-bottom: 1px solid #e0e0e0;
         }
